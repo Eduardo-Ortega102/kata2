@@ -17,7 +17,7 @@ public class Vector {
                     if (elements.containsKey(number) == true) {
                         elements.put(number, (elements.get(number))+ 1);
                     } else {
-                        elements.put(number, 1);
+                        elements.put(number, 1); //---
                     }
                 }
             }
